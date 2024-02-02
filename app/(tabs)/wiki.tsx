@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { Link } from 'expo-router'
 
-const Page = () => {
+const Wiki = () => {
   return (
-    <View style={{flex:1}}>
+    <View>
+      <Text>Wiki</Text>
     </View>
   )
 }
 
-export default Page
+export default Wiki
 
 const styles = StyleSheet.create({})

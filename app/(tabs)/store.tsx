@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { Link } from 'expo-router'
 
-const Page = () => {
+const Store = () => {
   return (
-    <View style={{flex:1}}>
+    <View>
+      <Text>Store</Text>
     </View>
   )
 }
 
-export default Page
+export default Store
 
 const styles = StyleSheet.create({})
