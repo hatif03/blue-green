@@ -32,13 +32,6 @@ const Layout = () => {
         }}
       />
       <Tabs.Screen
-        name='tools'
-        options={{
-          tabBarLabel:"Tools",
-          tabBarIcon: ({color, size}) => <MaterialCommunityIcons name="toolbox-outline" size={size*1.17} color={color} />
-        }}
-      />
-      <Tabs.Screen
         name='wiki'
         options={{
           tabBarLabel:"Wiki",
